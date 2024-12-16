@@ -107,6 +107,7 @@ nav{
 }
 li{
     color:aliceblue;
+    transition: 1s;
 }
 
     
@@ -208,4 +209,29 @@ ul{
 }
 .box6{
     display: flex;
+}
+.href{
+    transition: 1s;
+}
+.href:hover{
+    color:#BC9B14;
+    font-size:150%;
+}
+.hrefe{
+    transition: 0.5s;
+}
+.hrefe:active{
+    color:#304d58;
+}
+.sr{
+    transition: 1s;
+}
+.sr:hover{
+    color:#680F0F;
+}
+.ss{
+    transition: 1s;
+}
+.ss:hover{
+    transform:scale(1.5);
 }
